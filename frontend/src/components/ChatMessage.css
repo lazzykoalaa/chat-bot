@@ -1,0 +1,22 @@
+.chat-message {
+    margin-bottom: 10px;
+}
+
+.chat-message.user .message-bubble {
+    background-color: #007bff;
+    color: white;
+    text-align: right;
+}
+
+.chat-message.bot .message-bubble {
+    background-color: #e1e1e1;
+    color: black;
+    text-align: left;
+}
+
+.message-bubble {
+    padding: 10px 15px;
+    border-radius: 20px;
+    max-width: 80%;
+    display: inline-block;
+}
